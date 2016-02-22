@@ -18,7 +18,7 @@ first_row_third_column = first_row[2]
 ```
 *Figure 1*.  Representing a grid in a nested array data structure.
 
-Nested arrays are handy for representing grids, like a tic-tac-toe board (see Figure 1).  We generally think of grids in terms of rows and columns.  Nested arrays are a data structure that closely mimics this thinking.  We can think of the elements inside the outer array as rows.  And the elements within the individual rows are column values.
+Nested arrays are handy for representing grids, like a [tic-tac-toe board](https://en.wikipedia.org/wiki/Tic-tac-toe) (see Figure 1).  We generally think of grids in terms of rows and columns.  Nested arrays are a data structure that closely mimics this thinking.  We can think of the elements inside the outer array as rows.  And the elements within the individual rows are column values.
 
 If we wanted to get the first row of the grid, we can access the element at index 0.  Once we have that first row, then we can get the values in specific columns.  Figure 1 shows how we can access both the first row of the tic-tac-toe board and also how to get the value from the last column in that row.
 
@@ -38,7 +38,7 @@ board[7][0]
 *Figure 2*.  Generating a chessboard and accessing the piece in the first column of the last row.
 
 
-The first nested array structure that we want to produce is a chessboard.  We'll write a `generate_chessboard` method that returns a nested array representing a chessboard.  Pieces should be represented as strings (e.g., `'W Knight'` or `'B Pawn'`) and be placed in their positions at the start of the game.  Empty spaces should be represented as `nil`.  Tests have been written to describe the board.  (See Figure 2 for method usage examples.)
+The first nested array structure that we want to produce is a [chessboard](https://en.wikipedia.org/wiki/Chess#Rules).  We'll write a `generate_chessboard` method that returns a nested array representing a chessboard.  Pieces should be represented as strings (e.g., `'W Knight'` or `'B Pawn'`) and be placed in their positions at the start of the game.  Empty spaces should be represented as `nil`.  Tests have been written to describe the board.  (See Figure 2 for method usage examples.)
 
 Let's not make this more complicated than it needs to be; we just need to return the nested array.
 
