@@ -37,4 +37,8 @@ describe 'generate_roster' do
 
     expect(rows_with_five_scores_count).to eq 5
   end
+
+  it 'returns a specific index in the array' do
+    expect(roster.first).to eq ["Number", "Name", "Position", "Points per Game"]
+  end
 end
