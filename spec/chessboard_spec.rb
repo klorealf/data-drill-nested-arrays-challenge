@@ -20,7 +20,8 @@ describe 'generate_chessboard' do
       expect(board.first).to eq ['B Rook', 'B Knight', 'B Bishop', 'B Queen', 'B King', 'B Bishop', 'B Knight', 'B Rook']
     end
 
-    it 'has a last row of while backline pieces' do
+    it 'has a last row of white backline pieces' do
+
       expect(board.last).to eq ['W Rook', 'W Knight', 'W Bishop', 'W Queen', 'W King', 'W Bishop', 'W Knight', 'W Rook']
     end
 
