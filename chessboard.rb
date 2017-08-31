@@ -1,5 +1,4 @@
 def generate_chessboard
-  chessboard =
     [["B Rook", "B Knight", "B Bishop", "B Queen", "B King", "B Bishop", "B Knight", "B Rook"],
     ["B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn", "B Pawn"],
     [nil, nil, nil, nil, nil, nil, nil, nil],
